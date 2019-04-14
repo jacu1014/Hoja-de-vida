@@ -8,10 +8,10 @@
 <body>
   <header>
     <svg width="180px" height="60px" viewBox="0 0 180px 60px">
-      <image name="Letra j svg" width="40px" height="40px" xlink:href="img/letra_j.svg" x="0" y="10"></image>
-      <image name="Letra a svg" width="40px" height="40px" xlink:href="img/letra_a.svg" x="40" y="10"></image>
-      <image name="Letra c svg" width="40px" height="40px" xlink:href="img/letra_c.svg" x="80" y="10"></image>
-      <image name="Letra u svg" width="40px" height="40px" xlink:href="img/letra_u.svg" x="120" y="10"></image>
+      <image name="Letra j svg" width="40px" height="40px" xlink:href="../img/letra_j.svg" x="0" y="10"></image>
+      <image name="Letra a svg" width="40px" height="40px" xlink:href="../img/letra_a.svg" x="40" y="10"></image>
+      <image name="Letra c svg" width="40px" height="40px" xlink:href="../img/letra_c.svg" x="80" y="10"></image>
+      <image name="Letra u svg" width="40px" height="40px" xlink:href="../img/letra_u.svg" x="120" y="10"></image>
     </svg>
   </header>
   <article class="Datos_Personales">
@@ -90,6 +90,15 @@
       <p>
         <label for="Lugar"><strong>Lugar</strong></label><br>
         <textarea name="Lugar" rows="2" cols="40" placeholder="Ej. Bogotá, Colombia" required></textarea>
+      </p>
+      <p>
+        <form class="estudio">
+          <label for="estudio">¿Actualmente estudias?</label><br>
+          <input type="radio" name="Estudio" value="Si" checked><strong>Si</strong>
+          <br>
+          <input type="radio" name="Estudio" value="No"><strong>No</strong>
+        </form>
+
       </p>
       <p>
         <input type="submit" name="Enviar" value="Enviar">
