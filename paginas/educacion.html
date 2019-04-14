@@ -3,67 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Hoja de Vida</title>
+    <title>Educación</title>
 </head>
 <body>
  <header>
-
    <svg width="180px" height="60px" viewBox="0 0 180px 60px">
-     <image width="40px" height="40px" xlink:href="../img/letra_j.svg" x="0" y="10"></image>
-     <image width="40px" height="40px" xlink:href="../img/letra_a.svg" x="40" y="10"></image>
-     <image width="40px" height="40px" xlink:href="../img/letra_c.svg" x="80" y="10"></image>
-     <image width="40px" height="40px" xlink:href="../img/letra_u.svg" x="120" y="10"></image>
+     <image name="Letra j svg" width="40px" height="40px" xlink:href="img/letra_j.svg" x="0" y="10"></image>
+     <image name="Letra a svg" width="40px" height="40px" xlink:href="img/letra_a.svg" x="40" y="10"></image>
+     <image name="Letra c svg" width="40px" height="40px" xlink:href="img/letra_c.svg" x="80" y="10"></image>
+     <image name="Letra u svg" width="40px" height="40px" xlink:href="img/letra_u.svg" x="120" y="10"></image>
    </svg>
    </header>
-   <h1>Hoja de vida</h1>
-   <h2>Datos Personales</h2>
-   <h3>Nombres:John Alejandro</h3>
-   <h3>Apellidos: Ceballos Urrego</h3>
-   <h3>Fecha de nacimiento: 14-01-1990</h3>
-   <h3>Lugar de nacimiento: Bogotá,Colombia</h3>
-    <nav>
+   <article class="Datos_Personales">
+     <h1>Hoja de vida</h1>
+     <h2>Datos Personales</h2>
+     <h3>Nombres:John Alejandro</h3>
+     <h3>Apellidos: Ceballos Urrego</h3>
+     <h3>Fecha de nacimiento: 14-01-1990</h3>
+     <h3>Lugar de nacimiento: Bogotá,Colombia</h3>
+   </article>
+   <nav>
     <a href="../index.html">Inicio</a>
     <a href="#">Educación</a>
     <a href="experiencia.html">Experiencia</a>
     </nav>
-   <h2>Educación</h2>
-   <table border="1" cellspacing="0">
-     <tr>
-       <th>Año</th>
-       <th>Institución</th>
-       <th>Lugar</th>
-       <th>¿Culminó?</th>
-     </tr>
-     <tr>
-       <td>2006</td>
-       <td>I.E.D Nidia Quintero de Turbay</td>
-       <td>Bogotá, Colombia</td>
-       <td>Si</td>
-     </tr>
-     <tr>
-       <td>2017</td>
-       <td>Itil Fondation</td>
-       <td>Bogotá, Colombia</td>
-       <td>Si</td>
-     </tr>
-     <tr>
-       <td>2019</td>
-       <td>Itil OSA</td>
-       <td>Bogotá, Colombia</td>
-       <td>Si</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>CUN</td>
-       <td>Bogotá, Colombia</td>
-       <td>No</td>
-     </tr>
-   </table>
-   <br>
-   <fieldset>
+  <article class="educacion">
+    <h2>Educación</h2>
+    <table border="1" cellspacing="0">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>I.E.D Nidia Quintero de Turbay</td>
+        <td>Bogotá, Colombia</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Itil Fondation</td>
+        <td>Bogotá, Colombia</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Itil OSA</td>
+        <td>Bogotá, Colombia</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>CUN</td>
+        <td>Bogotá, Colombia</td>
+        <td>No</td>
+      </tr>
+    </table>
+    <br>
+  </article>
+   <fieldset class="formulario">
      <h3>Agregar Estudios</h3>
      <label for="fecha"><strong>Año:</strong></label><br>
-    <select >
+    <select class="fecha">
       <option>2019</option>
       <option>2018</option>
       <option>2017</option>
@@ -90,7 +93,7 @@
     </p>
      </fieldset>
 
-  <footer>
+  <footer class="Informacion_Contacto">
     <p>Información de Contacto:</p>
     <a href="">Correo: jacu1014@gmail.com</a> |
     <a href="">Tel: 3138675042</a> |
